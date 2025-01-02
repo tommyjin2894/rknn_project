@@ -99,7 +99,7 @@ python convert.py ../../model/yolo_world_v2s.onnx rk3588
 - Run Models with Python
 ```shell
 cd ..
-python yolo_world.py rk3588
+python yolo_world.py --target rk3588
 ```
 
 - It runs properly
@@ -112,3 +112,6 @@ python yolo_world.py rk3588
    person       0.595     [  80,  326,  125,  514]
     bus         0.917     [  98,  135,  553,  436]
 ```
+
+- result img custom text and custom img
+![img](result.jpg)
